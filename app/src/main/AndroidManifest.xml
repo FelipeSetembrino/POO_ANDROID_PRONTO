@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pt.isel.poo.grupo15.sketch">
+    package="pt.isel.poo.tp2_poo">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="pt.isel.poo.tp2_poo.SketchController">
+        <activity android:name="pt.isel.poo.tp2_poo.DrawController">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

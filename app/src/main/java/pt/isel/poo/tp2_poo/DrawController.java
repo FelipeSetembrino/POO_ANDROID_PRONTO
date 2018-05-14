@@ -29,7 +29,7 @@ import pt.isel.poo.tp2_poo.view.SketchView;
  * responsável pela criação da aplicação, para além de ponto intermédio entre view e model.
  */
 
-public class SketchController extends Activity {
+public class DrawController extends Activity {
 
     public RadioButton circle, line, pixel, rect;
 
