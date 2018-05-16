@@ -8,13 +8,13 @@ import android.view.View;
 
 import java.util.LinkedList;
 
-import pt.isel.poo.tp2_poo.SketchController;
+import pt.isel.poo.tp2_poo.DrawController;
 import pt.isel.poo.tp2_poo.model.Circle;
 import pt.isel.poo.tp2_poo.model.Figure;
 import pt.isel.poo.tp2_poo.model.Line;
 import pt.isel.poo.tp2_poo.model.Pixel;
 import pt.isel.poo.tp2_poo.model.Rect;
-import pt.isel.poo.tp2_poo.model.Sketch;
+import pt.isel.poo.tp2_poo.model.DrawModel;
 
 /**
  * Classe responsável pela interação entre utilizador e aplicação, sendo que desempenha o papel de
@@ -22,13 +22,13 @@ import pt.isel.poo.tp2_poo.model.Sketch;
  * re-pintura do view aquando de alterações no model da aplicação.
  */
 
-public class SketchView extends View {
+public class DrawView extends View {
 
     private static Paint paint = new Paint();
 
     private LinkedList<FigureView> views = new LinkedList<>();
 
-    private SketchController ctrl;
+    private DrawController ctrl;
 
     static {
         paint.setColor(Color.RED);
@@ -36,7 +36,7 @@ public class SketchView extends View {
         paint.setStrokeWidth(10);
     }
 
-    public SketchView(SketchController ctrl) {
+    public DrawView(DrawController ctrl) {
         super(ctrl);
         this.ctrl = ctrl;
     }
@@ -93,7 +93,7 @@ public class SketchView extends View {
         invalidate();
     }
 
-    public void reload(Sketch model) {
+    public void reload(Draw model) {
         for (Figure f : model) {
             views.add(createView(f));
         }
