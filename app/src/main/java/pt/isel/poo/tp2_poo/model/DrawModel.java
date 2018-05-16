@@ -15,11 +15,11 @@ import java.util.Scanner;
  * "carregar" ocorra, previamente, nesta classe, com os métodos save() e load(), respetivamente.
  */
 
-public class Sketch implements Iterable<Figure> {
+public class DrawModel implements Iterable<Figure> {
 
     private LinkedList<Figure> figures = new LinkedList<>();
 
-    public Sketch() {
+    public DrawModel() {
     }
 
     public void add(Figure f) {

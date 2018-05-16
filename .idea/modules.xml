@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/POO_ANDROID_PRONTO.iml" filepath="$PROJECT_DIR$/POO_ANDROID_PRONTO.iml" />
+      <module fileurl="file://C:\Users\António Delgado\Documents\GitHub\POO_ANDROID_PRONTO\POO_ANDROID_PRONTO.iml" filepath="C:\Users\António Delgado\Documents\GitHub\POO_ANDROID_PRONTO\POO_ANDROID_PRONTO.iml" />
       <module fileurl="file://C:\Users\felip\Documents\GitHub\POO_ANDROID_PRONTO\TP2_POO.iml" filepath="C:\Users\felip\Documents\GitHub\POO_ANDROID_PRONTO\TP2_POO.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+=======
+      <module fileurl="file://C:\Users\felip\Documents\GitHub\POO_ANDROID_PRONTO\app\app.iml" filepath="C:\Users\felip\Documents\GitHub\POO_ANDROID_PRONTO\app\app.iml" />
+      <module fileurl="file://C:\Users\António Delgado\Documents\GitHub\POO_ANDROID_PRONTO\app\app.iml" filepath="C:\Users\António Delgado\Documents\GitHub\POO_ANDROID_PRONTO\app\app.iml" />
+>>>>>>> 479901d653176a1db4382cbac1d4fe470ce6b2bd
     </modules>
   </component>
 </project>

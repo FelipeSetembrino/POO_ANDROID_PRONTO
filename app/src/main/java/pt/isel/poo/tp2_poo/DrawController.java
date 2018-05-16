@@ -29,14 +29,14 @@ import pt.isel.poo.tp2_poo.view.SketchView;
  * responsável pela criação da aplicação, para além de ponto intermédio entre view e model.
  */
 
-public class SketchController extends Activity {
+public class DrawController extends Activity {
 
     public RadioButton circle, line, pixel, rect;
 
-    private static SketchView view;
-    private static Sketch model = new Sketch();
+    private static DrawView view;
+    private static  DrawModel = new Draw();
 
-    private static final String FILE_NAME = "Sketch.txt";
+    private static final String FILE_NAME = "draw.txt";
 
     @Override
     protected void onCreate(Bundle state) {
