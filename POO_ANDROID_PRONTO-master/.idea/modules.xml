@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:\Users\andelgad\Desktop\POO\POO_ANDROID_PRONTO-master\POO_ANDROID_PRONTO.iml" filepath="D:\Users\andelgad\Desktop\POO\POO_ANDROID_PRONTO-master\POO_ANDROID_PRONTO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO_ANDROID_PRONTO-master.iml" filepath="$PROJECT_DIR$/POO_ANDROID_PRONTO-master.iml" />
+      <module fileurl="file://C:\Users\felip\Documents\GitHub\POO_ANDROID_PRONTO\TP2_POO.iml" filepath="C:\Users\felip\Documents\GitHub\POO_ANDROID_PRONTO\TP2_POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\felip\Documents\GitHub\POO_ANDROID_PRONTO\app\app.iml" filepath="C:\Users\felip\Documents\GitHub\POO_ANDROID_PRONTO\app\app.iml" />
+    </modules>
+  </component>
+</project>
